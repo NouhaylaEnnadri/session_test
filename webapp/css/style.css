@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #c6d9c7;
+}
+/* Header */
+header {
+  background-color: #1c461f;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	 background-color: #1c461f;
+	text-decoration: none;
+}
+
+/* Main */
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: calc(100vh - 100px);
+}
+
+.registration-form {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.login-form{
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+button[type="submit"] {
+ background-color: #1c461f;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+/* Poem container */
+/* Poem container */
+.poem-container {
+  background-color: #a0c0a26e;
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  box-shadow: 0px 0px 10px #aaa;
+}
+
+
+
+/* Footer */
+footer {
+	background-color: #333;
+	 background-color: #1c461f;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
